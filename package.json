@@ -1,0 +1,10 @@
+{
+  "name": "rehearsal-sandbox",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "lint": "node scripts/lint.mjs",
+    "typecheck": "node scripts/typecheck.mjs",
+    "test": "node --test tests/"
+  }
+}
